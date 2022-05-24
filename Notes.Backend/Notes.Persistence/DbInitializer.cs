@@ -11,7 +11,7 @@ namespace Notes.Persistence
         public static void Initialize(NotesDbContext context)
         {
             context.Database.EnsureCreated();
-            Console.WriteLine();
+            //Console.WriteLine();
         }
     }
 }
